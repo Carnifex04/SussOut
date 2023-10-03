@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <title>Upload</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="static/assets/css/noscript.css" />
+	</noscript>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+</head>
+
+<!-- <div> -->
+<!--     <style> -->
+<!--         .center { -->
+<!--             display: flex; -->
+<!--             justify-content: center; -->
+<!--             align-items: center; -->
+<!--             height: 200px; -->
+
+<!--         } -->
+
+<!--         img { -->
+<!--             display: block; -->
+<!--             margin-left: auto; -->
+<!--             margin-right: auto; -->
+<!--         } -->
+
+<!--         h1 { -->
+<!--             text-align: center; -->
+<!--             color: #0A043C; -->
+<!--         } -->
+
+<!--         h2 { -->
+<!--             text-align: center; -->
+<!--             color: yellow -->
+<!--         } -->
+
+
+<!--         h3 { -->
+<!--             text-align: center; -->
+<!--             color: white; -->
+<!--         } -->
+
+<!--         p { -->
+<!--             text-align: center; -->
+<!--             background-image: url('banner.jpg'); -->
+<!--         } -->
+
+<!--         div { -->
+<!--             text-align: center; -->
+
+<!--         } -->
+
+<!--         .button { -->
+<!--             background-color: #03506F; -->
+<!--             border: none; -->
+<!--             color: white; -->
+<!--             padding: 15px 32px; -->
+<!--             text-align: center; -->
+<!--             text-decoration: none; -->
+<!--             display: inline-block; -->
+<!--             font-size: 16px; -->
+<!--             margin: 4px 2px; -->
+<!--             cursor: pointer; -->
+
+<!--         } -->
+<!--     </style> -->
+	<div id="page-wrapper">
+	<section id="one" class="wrapper alt style2">
+			<section class="spotlight">
+				<div class="animated-gif">
+					<img src="https://media.tenor.com/IIRztzf3eLoAAAAd/among-us-upload.gif" alt="" style="width: 350px;height: 200px;">
+				</div>
+				<div class="content">
+					<h3>Upload Image from your System</h3>
+					<div class="center">
+                        <form action=/uploadimage method=post enctype=multipart/form-data>
+                            <input type=file name=file class=button>
+                            <input type=submit value=Upload class=button>
+                        </form>
+                    </div>
+				</div>
+			</section>
+			<br>
+			<br>
+			<br>
+
+			<section class="spotlight">
+				<div class="animated-gif"><img src="https://media.tenor.com/LnzwRacJmLMAAAAC/google-logo.gif" alt="" style="width: 350px;height: 200px;" /></div>
+				<div class="content">
+					<h3>Fetch image form the internet</h3>
+					<div class="center">
+                        <form action=/imageurl method=post enctype=multipart/form-data>
+                        <input type=url class=button placeholder="Enter the URL" name=url>
+                        <input type=submit value=Upload class=button>
+                    	</form>
+                    </div>
+				</div>
+			</section>
+		</section>
+	</div>
+</div>
+</body>
+
+</html>

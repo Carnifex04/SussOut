@@ -1,0 +1,12 @@
+Flask
+Keras-Preprocessing
+matplotlib
+opencv-python
+pandas
+Pillow
+tensorflow
+numpy
+urllib3
+werkzeug
+itsdangerous
+sklearn
